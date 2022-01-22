@@ -91,7 +91,7 @@ main .main__welcome h1:after{
 
 main .main__about{
   display: flex;
-  padding: 10px 0 10px 0;
+  padding: 100px 0 100px 0;
 }
 
 .about__right{
@@ -99,7 +99,7 @@ main .main__about{
 }
 
 .about__right h1{
-  display: inline-block;
+  display: none;
   border-bottom: 3px solid #fcac45;
   padding-bottom: 20px;
 }
