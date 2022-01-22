@@ -99,7 +99,7 @@ main .main__about{
 }
 
 .about__right h1{
-  display: none;
+  display: inline-block;
   border-bottom: 3px solid #fcac45;
   padding-bottom: 20px;
 }
