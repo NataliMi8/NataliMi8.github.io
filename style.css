@@ -91,11 +91,11 @@ main .main__welcome h1:after{
 
 main .main__about{
   display: flex;
-  padding: 100px 0 100px 0;
+  padding: 10px 0 10px 0;
 }
 
 .about__right{
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .about__right h1{
