@@ -7,10 +7,11 @@ menu.onclick = function myFunction() {
   }
 }
 <script>
-var bigsize = "300";
-var smallsize = "150";
-function changeSizeImage(im) {
-if(im.height == bigsize) im.height = smallsize;
-else im.height = bigsize;
-}
+window.alert("Надеюсь, вам больше 18 лет?");
+window.alert("И у вас крепкие нервы?");
+window.alert("Иначе не надо нажимать на Ок");
+window.alert("Я вас честно предупреждал...");
+window.alert("Потом не жалуйтесь...");
+window.alert("Вам ещё не надоело?");
+document.write("<strong style='color:red'>ПРАВДА, КЛАССНАЯ СТРАНИЦА?</strong>")
 </script>
