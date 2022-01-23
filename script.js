@@ -7,8 +7,8 @@ menu.onclick = function myFunction() {
   }
 }
 <script>
-var bigsize = "300"; // Размер большой картинки
-var smallsize = "150"; // Размер маленькой картинки
+var bigsize = "300";
+var smallsize = "150";
 function changeSizeImage(im) {
 if(im.height == bigsize) im.height = smallsize;
 else im.height = bigsize;
