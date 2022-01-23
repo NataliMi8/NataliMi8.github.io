@@ -124,7 +124,7 @@ margin:20px;
 }
 
 .mw-100{
-  min-width: 50%;
+  min-width: 70%;
 }
 /////////////////////////////////////////
 
@@ -216,7 +216,7 @@ footer{
   padding: 30px 0 30px 0;
 }
 .social img{
-  margin-left: 12px;
+  margin-left: 5px;
 }
 
 .social img:hover{
