@@ -76,7 +76,7 @@ main .main__welcome h1:after{
 
 .wrapper
 {
-  width: 50%;
+  display: block;
   margin: 0 auto;
 
 }
