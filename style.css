@@ -87,7 +87,12 @@ main .main__welcome h1:after{
   margin: 0 auto;
 
 }
-
+.colum {
+  text-align: justify;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 20px;
+}
 
 main .main__about{
   display: flex;
@@ -344,12 +349,7 @@ footer{
     margin-top: 10px;
     font-size: 20px;
   }
-  .colum {
-  text-align: justify;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 20px;
-  
+ 
   }
   .line1 img:not(:first-child){
     display: none;
