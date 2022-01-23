@@ -467,10 +467,4 @@ footer{
   .line3 img:not(:first-child){
     display: none;
   }
-  .column {
-    width: 200px;
-    count: 1;
-    gap: 30px;
-    rule: 1px solid #ccc;
-   }
 }
