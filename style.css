@@ -347,7 +347,6 @@ footer{
   }
   .line1 img:not(:first-child){
     display: none;
-    float:left;
   }
   .line2 img:not(:first-child){
     display: none;
