@@ -87,12 +87,6 @@ main .main__welcome h1:after{
   margin: 0 auto;
 
 }
-.colum {
-  text-align: justify;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 20px;
-}
 
 main .main__about{
   display: flex;
