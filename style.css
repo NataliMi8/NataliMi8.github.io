@@ -355,4 +355,7 @@ footer{
   .line3 img:not(:first-child){
     display: none;
   }
+p {
+text-align: justify;
+}
 }
