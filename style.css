@@ -88,7 +88,7 @@ main .main__welcome h1:after{
 
 }
 
-
+/////////////////////////////////////////////////////
 main .main__about{
   display: flex;
   padding: 100px 0 100px 0;
@@ -124,18 +124,9 @@ margin:20px;
 }
 
 .mw-100{
-  min-width: 25%;
+  min-width: 100%;
 }
-
-
-/*.line{
-width: 100px;
-height: 3px;
-background: #fcac45;
-position: relative;
-left: 45.5%;
-margin-bottom: 85px;
-}*/
+/////////////////////////////////////////
 
 .contact__form{
   padding: 100px 0 100px 0;
@@ -231,37 +222,38 @@ footer{
 .social img:hover{
   opacity: 0.6;
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:500px){
   nav{
     margin-left: 20%;
   }
 }
 
-@media screen and (max-width:1560px){
+@media screen and (max-width:500px){
   nav{
     margin-left: 27%;
   }
 }
 
-@media screen and (max-width:1560px){
+@media screen and (max-width:500px){
   nav{
     margin-left: 27%;
   }
 }
 
-@media screen and (max-width:1290px){
+@media screen and (max-width:500px){
   nav{
     margin-left: 20%;
   }
 }
 
-@media screen and (max-width:1180px){
+@media screen and (max-width:500px){
   nav{
     margin-left: 15%;
   }
 }
 
-@media screen and (max-width:1050px){
+
+@media screen and (max-width:500px){
   .topnav a{
     display: none;
   }
