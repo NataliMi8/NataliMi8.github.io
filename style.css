@@ -124,17 +124,9 @@ margin:20px;
 }
 
 .mw-100{
-  min-width: 100%;
+  min-width: 50%;
 }
 
-/*.line{
-width: 100px;
-height: 3px;
-background: #fcac45;
-position: relative;
-left: 45.5%;
-margin-bottom: 85px;
-}*/
 
 .contact__form{
   padding: 100px 0 100px 0;
