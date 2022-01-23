@@ -208,7 +208,7 @@ h1::after{
   display: flex;
   justify-content: center;
 }
-
+/////////////////////////////////////////////////
 footer{
   width: 100%;
   height: auto;
@@ -230,13 +230,7 @@ footer{
 
 @media screen and (max-width:500px){
   nav{
-    margin-left: 27%;
-  }
-}
-
-@media screen and (max-width:500px){
-  nav{
-    margin-left: 27%;
+    margin-left: 20%;
   }
 }
 
@@ -248,7 +242,13 @@ footer{
 
 @media screen and (max-width:500px){
   nav{
-    margin-left: 15%;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width:500px){
+  nav{
+    margin-left: 20%;
   }
 }
 
@@ -286,7 +286,7 @@ footer{
     display: block;
     text-align: center;
   }
-
+//////////////////////////////////////////////////////
   main .main__welcome{
     padding: 50px 0 50px 0;
   }
@@ -299,6 +299,7 @@ footer{
   .mw-100{
     max-width: 100%;
   }
+  ////////////////////////////////////////////////////////////
   .main__about{
     flex-direction: column;
   }
@@ -326,17 +327,7 @@ footer{
     margin-top: 10px;
     font-size: 20px;
   }
-  .team__cards{
-    flex-direction:column;
-  }
-
-  .sevices__cards{
-    grid-template-columns: auto;
-  }
-
-  .sevices__card{
-
-  }
+  /////////////////////////////////////////////
   .line1 img:not(:first-child){
     display: none;
   }
