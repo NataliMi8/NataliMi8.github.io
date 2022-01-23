@@ -312,21 +312,6 @@ footer{
   .mw-100{
     max-width: 100%;
   }
-  .main__about{
-    flex-direction: column;
-  }
-  .about__right{
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .about__left{
-    width: 50%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .about__right ul{
     display: inline-block;
   }
@@ -339,6 +324,15 @@ footer{
     margin-top: 10px;
     font-size: 20px;
   }
+  .team__cards{
+    flex-direction:column;
+  }
+
+  .sevices__cards{
+    grid-template-columns: auto;
+  }
+
+  .sevices__card{
 
   }
   .line1 img:not(:first-child){
