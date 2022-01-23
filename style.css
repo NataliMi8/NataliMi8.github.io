@@ -88,6 +88,7 @@ main .main__welcome h1:after{
 
 }
 
+
 main .main__about{
   display: flex;
   padding: 100px 0 100px 0;
@@ -126,6 +127,109 @@ margin:20px;
   min-width: 100%;
 }
 
+.main__team{
+  background: #000;
+  text-align: center;
+  padding: 100px 0 165px 0;
+  color: #fff;
+}
+.main__team h1{
+  font-size: 44px;
+  padding-bottom: 30px;
+}
+/*.line{
+width: 100px;
+height: 3px;
+background: #fcac45;
+position: relative;
+left: 45.5%;
+margin-bottom: 85px;
+}*/
+.photo{
+  background: #d7d7d7;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 20px auto;
+
+}
+.team__cards{
+
+}
+
+.card{
+  margin: 0 40px;
+  text-align: center;
+  display: inline-block;
+}
+
+.name{
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.position{
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.about__position{
+  font-size: 14px;
+}
+
+.sevices__cards{
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 20px;
+}
+
+.main__services h1{
+  text-align: center;
+  padding: 100px 0 30px 0;
+}
+
+.main__services p{
+  color: #6c6c6c;
+  margin-bottom: 100px;
+}
+
+.sevices__card h4{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.main__clients{
+  background: #000;
+  padding: 100px 0 150px 0;
+  color: #fff;
+  text-align: center;
+}
+.main__clients h1{
+  margin-bottom: 30px;
+}
+
+.main__clients img{
+  margin-top: 10px;
+
+}
+
+.main__tesimonial{
+  background: #000;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 170px;
+}
+
+.main__tesimonial .tesimonial{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.main__tesimonial h1{
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+
 .main__work{
   text-align: center;
   padding: 100px 0 100px 0;
@@ -143,6 +247,10 @@ margin:20px;
 .main__work img:hover{
   opacity: 0.9;
 
+}
+
+.contact__form{
+  padding: 100px 0 100px 0;
 }
 
 .contact__form h1,p{
@@ -312,6 +420,21 @@ footer{
   .mw-100{
     max-width: 100%;
   }
+  .main__about{
+    flex-direction: column;
+  }
+  .about__right{
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .about__left{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .about__right ul{
     display: inline-block;
   }
