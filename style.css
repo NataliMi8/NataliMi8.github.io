@@ -222,38 +222,38 @@ footer{
 .social img:hover{
   opacity: 0.6;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:1200px){
   nav{
     margin-left: 20%;
   }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:1560px){
+  nav{
+    margin-left: 27%;
+  }
+}
+
+@media screen and (max-width:1560px){
+  nav{
+    margin-left: 27%;
+  }
+}
+
+@media screen and (max-width:1290px){
   nav{
     margin-left: 20%;
   }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:1180px){
   nav{
-    margin-left: 20%;
-  }
-}
-
-@media screen and (max-width:500px){
-  nav{
-    margin-left: 20%;
-  }
-}
-
-@media screen and (max-width:500px){
-  nav{
-    margin-left: 20%;
+    margin-left: 15%;
   }
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:1050px){
   .topnav a{
     display: none;
   }
