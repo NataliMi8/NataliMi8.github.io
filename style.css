@@ -320,7 +320,7 @@ footer{
     flex-direction: column;
   }
   .about__right{
-    text-align: center;
+    text-align: justify;
     margin-left: 0;
   }
 
