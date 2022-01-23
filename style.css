@@ -128,6 +128,26 @@ margin:20px;
 }
 /////////////////////////////////////////
 
+.main__work{
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+
+.main__work h1{
+  margin-bottom: 30px;
+}
+
+.main__work p{
+  margin-bottom: 75px;
+  color: #6c6c6c;
+}
+
+.main__work img:hover{
+  opacity: 0.9;
+
+}
+///////////////////////////////////////////////////
+
 .contact__form{
   padding: 100px 0 100px 0;
 }
