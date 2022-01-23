@@ -316,10 +316,11 @@ footer{
   main .main__welcome h1 {
     font-size: 25px;
   }
+  /////////////////////////////////////////////
   .mw-100{
     max-width: 100%;
   }
-  ////////////////////////////////////////////////////////////
+  
   .main__about{
     flex-direction: column;
   }
